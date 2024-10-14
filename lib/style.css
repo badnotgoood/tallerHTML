@@ -1,0 +1,178 @@
+h1 {
+    font-family: 'Helvetica', sans-serif; 
+    font-weight: bold; 
+    font-size: 70px;   
+    margin: 0;
+    text-align: left;
+    padding-bottom: 20px;             
+}
+
+p {
+    font-family: 'garamond-atf-subhead', serif;
+    font-size: 20px;
+    line-height: 1.6; 
+}
+
+body {
+  margin: 0;
+  padding: 0%;
+}
+
+.album-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(176px, 1fr));
+    grid-gap: 15px;
+    padding-top: 5px;
+    padding-right: 16px;
+    max-height: 510px;  
+    min-height: auto;   
+    overflow-y: auto; 
+}
+
+.album-item {
+    display: inline-block;
+    text-align: left;
+}
+
+.album-item img {
+    width: 100%;
+    border-radius: 4px;
+    height: auto;
+    
+}
+
+.album-info h3 {
+    font-family: 'garamond-atf-subhead', serif;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 9px;
+    margin-bottom: 0px;
+}
+
+.album-info p {
+    font-family: 'garamond-atf-subhead', serif;
+    font-size: 16px;
+    color: black;
+    margin: 0px
+}
+
+.content {
+    display: none;
+}
+
+.list-group-item {
+    border-radius: 4px;
+    margin-right: 6px;
+    border-style: hidden;
+    border-color: black;
+    border-width: 1.5px;
+    padding: 5px;
+    font-family: 'garamond-atf-subhead', serif;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgb(240, 240, 240);
+}
+  
+.list-group-item:hover {
+  border-radius: 4px;
+  margin-right: 6px;
+  border-style: hidden;
+  border-color: black;
+  border-width: 1.5px;
+  padding: 5px;
+  font-family: 'garamond-atf-subhead', serif;
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: rgb(220, 220, 220);   
+  cursor: pointer
+}
+
+.list-group-item.active {
+    border-radius: 4px;
+    margin-right: 6px;
+    border-style: hidden;
+    border-color: black;
+    border-width: 1.5px;
+    padding: 5px;
+    font-family: 'garamond-atf-subhead', serif;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgb(25,25,25);
+    cursor: pointer
+}
+
+.list-group-item.active:hover {
+    background-color: rgb(35, 35, 35); 
+}
+      
+.custom-link {
+    color: black;
+  }        
+      
+.custom-link:hover {
+    text-decoration: underline;
+    color: rgb(138, 191, 228);
+  }
+
+.btn-primary{
+    font-family: 'Helvetica';
+    font-weight: bold;
+    font-size: 40px;
+    border-style: none;
+    background: none;
+    padding-top: 20px;
+    padding-left: 0;
+}
+
+.btn-primary:hover{
+    font-family: 'Helvetica';
+    font-weight: bold;
+    color: rgb(138, 191, 228);
+    font-size: 40px;
+    border-style: hidden;
+    background: none;
+    cursor: pointer;
+}
+
+.form-control{
+    font-family: 'garamond-atf-subhead', serif;
+    color: rgb(20, 20, 20);
+    font-size: 22px;
+    border-style: hidden;
+    background: none;
+    cursor: text;
+    border-bottom: solid;
+    margin-left: 2.5px;
+    padding-left: 2px;
+    border-width: 2px;
+    padding-top: 20px;
+    
+}
+
+.form-control::placeholder{
+    color: rgb(53, 53, 53);
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
+.form-control:focus {
+    outline: none; 
+}
+
+form input, form textarea {
+    width: 25%;          
+    padding: 10px;      
+    box-sizing: border-box; 
+    margin-bottom: 15px;
+}
+    
