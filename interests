@@ -12,8 +12,8 @@
     margin-top: 25px; 
     margin-left: 50px; 
     margin-right: 50px;
-    margin-bottom: 0px;
-    display: grid; grid-template-columns: 41% 59%; gap: 30px; height: 100vh;">
+    margin-bottom: 50px;
+    display: grid; grid-template-columns: 41% 59%; gap: 30px; height: auto;">
         <!-- left side -->
         <div id="frank-photo" class="container" style="grid-column: 1; overflow-wrap: break-word;">
             <h1>
@@ -186,7 +186,7 @@
       </div>
     <!-- footer -->
       <div id="footer" class="container" style="height: auto; margin: 0px; padding-top: 20px;">
-        <p>
+        <p style="font-size: 20px;">
           1. Tomado de <a href="https://open.spotify.com/artist/2h93pZq0e7k5yf4dywlkpM" class="custom-link" 
           target="_blank">Spotify</a>.
         </p>
