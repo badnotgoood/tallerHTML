@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<title>Frank Ocean</title>
+<head>
+    <link rel="stylesheet" href="https://use.typekit.net/ksz6zew.css">
+    <link rel="stylesheet" href="lib/style.css">
+</head>
+<script src="js/script.js"></script>
+
+<body>
+    <!-- top -->
+    <div class="container" id="top" style="background-color: white;
+    margin-top: 25px; 
+    margin-left: 50px; 
+    margin-right: 50px;
+    margin-bottom: 50px;
+    display: grid; grid-template-columns: 41% 59%; gap: 30px; height: auto;">
+        <!-- left side -->
+        <div id="frank-photo" class="container" style="grid-column: 1; overflow-wrap: break-word;">
+            <h1>
+               Frank Ocean
+            </h1>
+            <img src="img/frankOcean.jpg" alt="Portrait" width="100%" height="auto" padding-bottom: 20px;>
+        </div>
+        <!-- right side -->
+        <div class="container" style="grid-column: 2; max-width: 100%; overflow-wrap: break-word; padding-top: 75px;">
+          <p>
+            Visionary American recording artist Frank Ocean is one of the most celebrated and critically acclaimed artists of this era.
+            His heavily lauded breakout mixtape 'Nostalgia Ultra' in 2011 set the tone for what would be the Grammy-Award winning record 'Channel
+            Orange'. After a four-year break, Ocean dropped one of the most anticipated albums of all time
+            'Endless', followed a day later by the seminal and game-changing album 'Blonde'. Between then and now, Frank Ocean has released songs including 'Chanel', 'Provider', and 'In My Room' to
+            further acclaim, plus launched the independent American luxury company, <a href="https://www.homer.com/" class="custom-link" target="_blank">Homer</a>.<a href="#footer" style="color: black; text-decoration: none;">¹</a>
+          </p>
+            <!-- discography -->
+            <p style="font-weight: bold;">
+              Discography
+            </p>
+            <!-- tabs menu -->
+            <div class="list-group" style="padding-bottom: 20px;">
+              <button class="list-group-item" data-target="section-albums">Albums</a>
+              <button class="list-group-item" data-target="section-singles">Singles and EPs</a>
+            </div>
+            <!-- music display -->
+            <!-- albums -->
+            <div class="content" id="section-albums">
+              <div class="album-container">
+                  <div class="album-item">
+                      <img src="img/covers/blonde.jpeg">
+                      <div class="album-info">
+                          <h3>Blonde</h3>
+                          <p>2016</p>
+                      </div>
+                  </div>
+                  <div class="album-item">
+                      <img src="img/covers/endless.jpg">
+                      <div class="album-info">
+                          <h3>Endless</h3>
+                          <p>2016</p>
+                      </div>
+                  </div>
+                  <div class="album-item">
+                    <img src="img/covers/channelOrange.jpeg">
+                    <div class="album-info">
+                        <h3>channel ORANGE</h3>
+                        <p>2012</p>
+                    </div>
+                  </div>
+                  <div class="album-item">
+                    <img src="img/covers/nostalgiaUltra.jpeg">
+                    <div class="album-info">
+                        <h3>Nostalgia, Ultra</h3>
+                        <p>2011</p>
+                    </div>
+                  </div>
+              </div>
+            </div>
+            <!-- singles and eps -->
+            <div class="content" id="section-singles" id="single-1">
+              <div class="album-container">
+              <div class="album-item">
+                  <img src="img/covers/dearApril.jpeg">
+                  <div class="album-info">
+                      <h3>Dear April (Side A - Acoustic)</h3>
+                      <p>2020</p>
+                  </div>
+              </div>
+              <div class="album-item" id="single-2">
+                  <img src="img/covers/cayendo.jpeg">
+                  <div class="album-info">
+                      <h3>Cayendo (Side A - Acoustic)</h3>
+                      <p>2020</p>
+                  </div>
+              </div>
+              <div class="album-item" id="single-3">
+                  <img src="img/covers/inMyroom.jpeg">
+                  <div class="album-info">
+                      <h3>In My Room</h3>
+                      <p>2019</p>
+                  </div>
+              </div>
+              <div class="album-item" id="single-4">
+                <img src="img/covers/dhl.jpeg">
+                <div class="album-info">
+                    <h3>DHL</h3>
+                    <p>2019</p>
+                </div>
+              </div> 
+              <div class="album-item" id="single-5">
+                <img src="img/covers/moonRiver.jpeg">
+                <div class="album-info">
+                    <h3>Moon River</h3>
+                    <p>2018</p>
+                </div>
+              </div>
+              <div class="album-item" id="single-6">
+                <img src="img/covers/provider.jpeg">
+                <div class="album-info">
+                    <h3>Provider</h3>
+                    <p>2017</p>
+                </div>
+              </div>
+              <div class="album-item" id="single-7">
+                <img src="img/covers/biking.jpeg">
+                <div class="album-info">
+                    <h3>Biking (Solo)</h3>
+                    <p>2017</p>
+                </div>
+              </div>
+              <div class="album-item" id="single-8">
+                <img src="img/covers/lens.jpeg">
+                <div class="album-info">
+                    <h3>Lens</h3>
+                    <p>2017</p>
+                </div>
+              </div>
+              <div class="album-item" id="single-9">
+                <img src="img/covers/chanel.jpeg">
+                <div class="album-info">
+                    <h3>Chanel</h3>
+                    <p>2017</p>
+                </div>
+              </div>
+              <div class="album-item" id="single-10">
+                <img src="img/covers/thinkingBoutYou.jpeg">
+                <div class="album-info">
+                    <h3>Thinking Bout You</h3>
+                    <p>2012</p>
+                </div>
+              </div>
+              <div class="album-item" id="single-11">
+                <img src="img/covers/swimGood.jpeg">
+                <div class="album-info">
+                    <h3>Swim Good</h3>
+                    <p>2011</p>
+                </div>
+              </div>
+              <div class="album-item" id="single-12">
+                <img src="img/covers/novacane.jpeg">
+                <div class="album-info">
+                    <h3>Novacane</h3>
+                    <p>2011</p>
+                </div>
+              </div>
+              </div>    
+            </div>
+        </div>
+        
+    </div>
+    <!-- bottom -->
+    <div style="padding: 80px 0px 0px 50px; height: 100%; background-color: rgb(245, 245, 245); margin: 0px; padding-top: 10px;">
+    <!-- form -->
+      <div id="form">
+      <p style="font-weight: bold; font-size: 22px; margin-bottom: 15px; padding-left: 2.5px; padding-top: 15px;">
+        Suscribirme para más información 
+        </p>
+        <form>
+          <div class="form-group">
+            <input type="nombre" class="form-control" id="nombreInput" placeholder="Nombre">
+          </div>
+          <div class="form-group">
+            <input type="email" class="form-control" id="emailInput" placeholder="Email">
+          </div>
+          <button type="enviar" class="btn btn-primary">
+            Enviar
+          </button>
+        </form>
+      </div>
+    <!-- footer -->
+      <div id="footer" class="container" style="height: auto; margin: 0px; padding-top: 20px;">
+        <p style="font-size: 20px;">
+          1. Tomado de <a href="https://open.spotify.com/artist/2h93pZq0e7k5yf4dywlkpM" class="custom-link" 
+          target="_blank">Spotify</a>.
+        </p>
+      </div>
+    </div>
+</body>
+</html>
